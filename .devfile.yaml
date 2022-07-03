@@ -17,7 +17,7 @@ components:
           targetPort: 8079
   - name: catalogue
     container:
-      image: weaveworksdemos/catalogue:0.3.5
+      image: registry.ford.com/abaker9/weaveworksdemos/catalogue:0.3.5
       cpuLimit: 200m
       memoryLimit: 200Mi
       cpuRequest: 100m
@@ -33,7 +33,7 @@ components:
           exposure: internal
   - name: catalogue-db
     container:
-      image: weaveworksdemos/catalogue-db:0.3.0
+      image: registry.ford.com/abaker9/weaveworksdemos/catalogue-db:0.3.0
       cpuLimit: 200m
       memoryLimit: 300Mi
       cpuRequest: 100m
