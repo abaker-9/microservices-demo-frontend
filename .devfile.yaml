@@ -70,7 +70,7 @@ components:
         - "sleep 30 && /usr/local/bin/java.sh -jar ./app.jar --port=80"
   - name: carts-db
     container:
-      image: mongo:3.4
+      image: registry.ford.com/abaker9/mongo:3.4
       cpuLimit: 200m
       memoryLimit: 300Mi
       cpuRequest: 100m
