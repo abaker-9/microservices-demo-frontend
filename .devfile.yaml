@@ -55,7 +55,7 @@ components:
       ephemeral: true
   - name: carts
     container:
-      image: weaveworksdemos/carts:0.4.8
+      image: registry.ford.com/abaker9/weaveworksdemos/carts:0.4.8
       cpuLimit: 200m
       memoryLimit: 500Mi
       cpuRequest: 100m
